@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "nz.jordy.donutsmp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScreenHandlerMixin",
+    "ClientCommonNetworkHandlerMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}

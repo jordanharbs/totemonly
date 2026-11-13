@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "totemonly",
+  "version": "${version}",
+  "name": "Totem Only Offhand",
+  "description": "Only totems of undying can go in your offhand.",
+  "environment": "client",
+  "depends": { "fabricloader": ">=0.15.0", "minecraft": "~1.21", "java": ">=21" },
+  "mixins": [ "totemonly.mixins.json" ]
+}
